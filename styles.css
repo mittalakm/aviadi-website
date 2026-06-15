@@ -1,0 +1,45 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-accent: #2a6f97;
+  --max-width: 720px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.site-header,
+main,
+.site-footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-header {
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.tagline {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+a {
+  color: var(--color-accent);
+}
+
+.site-footer {
+  border-top: 1px solid #ddd;
+  font-size: 0.875rem;
+  color: #666;
+}
