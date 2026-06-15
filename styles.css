@@ -103,6 +103,14 @@ a:hover { text-decoration: underline; }
 .lead { font-size: 1.1rem; color: var(--color-muted); max-width: 42rem; }
 .services, .contact { background: var(--color-surface); }
 
+/* ---------- About / Profile ---------- */
+.profile-name { font-size: 1.6rem; font-weight: 800; margin: 0; }
+.profile-title { color: var(--color-accent); font-weight: 600; margin: 0.25rem 0 1.5rem; }
+.profile-body p { color: var(--color-muted); max-width: 64ch; }
+.focus-heading { margin: 2.5rem 0 0.75rem; font-size: 1.15rem; }
+.focus-list { color: var(--color-muted); max-width: 64ch; padding-left: 1.2rem; margin: 0; }
+.focus-list li { margin-bottom: 0.5rem; }
+
 /* ---------- Stats ---------- */
 .stats { display: flex; gap: 2.5rem; flex-wrap: wrap; margin-top: 2rem; }
 .stat { display: flex; flex-direction: column; }
