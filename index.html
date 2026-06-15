@@ -3,33 +3,141 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="AviAdi Enterprises — quality products and services you can trust. Get in touch to learn more." />
-  <title>AviAdi Enterprises</title>
+  <meta name="description" content="AviAdi Enterprises — financial services and advisory you can trust. Empowering your growth with tailored solutions." />
+  <title>AviAdi Enterprises — Financial Services &amp; Advisory</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <!-- ============ Header / Nav ============ -->
   <header class="site-header">
-    <h1>AviAdi Enterprises</h1>
-    <p class="tagline">Quality products and services you can trust.</p>
+    <nav class="nav container">
+      <a class="brand" href="#home">AviAdi<span>Enterprises</span></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle menu">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a class="nav-cta" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="intro">
-      <h2>Welcome</h2>
-      <p>
-        We are a growing business committed to serving our customers with care.
-        This site is just getting started — check back soon for more.
-      </p>
+    <!-- ============ Hero ============ -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Your Growth Partner</p>
+        <h1>Smart financial solutions,<br />tailored to you.</h1>
+        <p class="hero-sub">
+          AviAdi Enterprises helps businesses and individuals make confident
+          financial decisions with expert, personalised advice.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Get in touch</a>
+          <a class="btn btn-ghost" href="#services">Our services</a>
+        </div>
+      </div>
     </section>
 
-    <section class="contact">
-      <h2>Get in touch</h2>
-      <p>Email us at <a href="mailto:aviadienterprises@gmail.com">aviadienterprises@gmail.com</a>.</p>
+    <!-- ============ About ============ -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>About us</h2>
+        <p class="lead">
+          <!-- TODO: replace with AviAdi's real "about" copy -->
+          <em>[Placeholder]</em> AviAdi Enterprises is a financial services firm
+          dedicated to delivering tailored, ethical, and transparent solutions to
+          our clients across India. Tell us your goals and we will help you reach them.
+        </p>
+        <div class="stats">
+          <div class="stat"><span class="stat-num">[X]+</span><span class="stat-label">Clients served</span></div>
+          <div class="stat"><span class="stat-num">[X]+</span><span class="stat-label">Years of experience</span></div>
+          <div class="stat"><span class="stat-num">100%</span><span class="stat-label">Client focused</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Services ============ -->
+    <!-- TODO: replace these 6 placeholder cards with AviAdi's actual services -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2>Our services</h2>
+        <p class="section-sub">What we can help you with.</p>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Service one</h3>
+            <p><em>[Placeholder]</em> Short description of the first service AviAdi offers.</p>
+          </article>
+          <article class="card">
+            <h3>Service two</h3>
+            <p><em>[Placeholder]</em> Short description of the second service AviAdi offers.</p>
+          </article>
+          <article class="card">
+            <h3>Service three</h3>
+            <p><em>[Placeholder]</em> Short description of the third service AviAdi offers.</p>
+          </article>
+          <article class="card">
+            <h3>Service four</h3>
+            <p><em>[Placeholder]</em> Short description of the fourth service AviAdi offers.</p>
+          </article>
+          <article class="card">
+            <h3>Service five</h3>
+            <p><em>[Placeholder]</em> Short description of the fifth service AviAdi offers.</p>
+          </article>
+          <article class="card">
+            <h3>Service six</h3>
+            <p><em>[Placeholder]</em> Short description of the sixth service AviAdi offers.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Reviews ============ -->
+    <section id="reviews" class="section reviews">
+      <div class="container">
+        <h2>What clients say</h2>
+        <div class="card-grid">
+          <blockquote class="review">
+            <p><em>[Placeholder]</em> &ldquo;A short client testimonial goes here.&rdquo;</p>
+            <footer>&mdash; Client name</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p><em>[Placeholder]</em> &ldquo;Another happy-client quote goes here.&rdquo;</p>
+            <footer>&mdash; Client name</footer>
+          </blockquote>
+          <blockquote class="review">
+            <p><em>[Placeholder]</em> &ldquo;One more testimonial to build trust.&rdquo;</p>
+            <footer>&mdash; Client name</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <!-- TODO: replace placeholder phone/address/hours with real details -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div>
+          <h2>Get in touch</h2>
+          <p class="lead">Have a question or want to work with us? Reach out.</p>
+        </div>
+        <ul class="contact-list">
+          <li><strong>Email</strong><a href="mailto:aviadienterprises@gmail.com">aviadienterprises@gmail.com</a></li>
+          <li><strong>Phone</strong><span><em>[Placeholder]</em> +91 XXXXX XXXXX</span></li>
+          <li><strong>Office</strong><span><em>[Placeholder]</em> City, State - PIN</span></li>
+          <li><strong>Hours</strong><span><em>[Placeholder]</em> Mon&ndash;Sat, 9:00 AM &ndash; 6:00 PM</span></li>
+        </ul>
+      </div>
     </section>
   </main>
 
+  <!-- ============ Footer ============ -->
   <footer class="site-footer">
-    <p>&copy; 2026 AviAdi Enterprises. All rights reserved.</p>
+    <div class="container">
+      <p>&copy; 2026 AviAdi Enterprises. All rights reserved.</p>
+    </div>
   </footer>
 </body>
 </html>
